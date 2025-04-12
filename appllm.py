@@ -94,7 +94,7 @@ if user_prompt:
             true_label = st.radio("Then what was the correct label?", ["Safe", "Malicious"])
             if st.button("Retrain Model"):
                 # Append new label and retrain
-                df = df.append({"prompt": user_prompt, "label": true_label.lower()}, ignore_index=True)
+                df = pd.concat([df, pd.DataFrame([{"prompt": user_prompt, "label": true_label.lower()}])], ignore_index=True)
                 X = vectorizer.fit_transform(df["prompt"])
                 y = (df["label"] == "malicious").astype(int)
                 model.fit(X, y)
