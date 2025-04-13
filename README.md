@@ -46,4 +46,4 @@ You can enter your own prompt and see how the model classifies it as **Safe** or
 git clone https://github.com/your-username/prompt-guard-demo.git
 cd prompt-guard-demo
 pip install -r requirements.txt
-streamlit run app.py
+streamlit run appllm.py
