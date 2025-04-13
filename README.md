@@ -1,6 +1,6 @@
 # 🛡️ Prompt Guard: Detecting Malicious LLM Prompts
 
-This Streamlit app is a hands-on demo of adversarial prompt detection and model retraining, designed to simulate how malicious prompts can bypass AI safety filters — and how models can be hardened in response.
+This Streamlit app created by Caroline Keddie is a hands-on demo of adversarial prompt detection and model retraining, designed to simulate how malicious prompts can bypass AI safety filters — and how models can be hardened in response.
 
 ---
 
