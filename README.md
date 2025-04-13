@@ -9,7 +9,7 @@ This Streamlit app created by Caroline Keddie is a hands-on demo of adversarial 
 - Detects malicious prompts using a logistic regression classifier
 - Generates **adversarial examples** from safe prompts to simulate attacks
 - Allows **user feedback and retraining** for real-time model improvement
-- Visualizes key features influencing the classifier
+- Visualises key features influencing the classifier
 
 ---
 
